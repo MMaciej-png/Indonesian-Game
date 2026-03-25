@@ -38,8 +38,10 @@ lerna-debug.log*
 *.sln
 *.sw?
 
-# Cursor (local; commit rules later explicitly if desired)
-.cursor/
+# Cursor — ignore local workspace cache; keep team rules under .cursor/rules/
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
 
 # OS
 .DS_Store
