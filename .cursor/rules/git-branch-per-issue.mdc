@@ -1,0 +1,21 @@
+---
+description: Use one Git branch per GitHub issue; never commit product changes directly to main without a PR.
+alwaysApply: true
+---
+
+# Git — branch per issue
+
+For **Indonesian-Game**:
+
+1. **Before coding:** Ensure there is a **GitHub Issue** for the work (or create one in the browser).
+2. **Branch from `main`:** Use a name that includes the issue number, for example:
+   - `issue-12-skill-tree-purchase`
+   - `feat/12-skill-tree-purchase` or `fix/12-typo-in-readme`
+3. **Do all commits on that branch** — not on `main`.
+4. **Commit messages:** Conventional Commits; put `Refs #12` (or `Fixes #12` when closing) in the **body**.
+5. **Open a Pull Request** into `main`; use `Closes #12` / `Fixes #12` in the PR description when the issue is fully done.
+6. **Merge** only via PR (squash or merge commit per team preference).
+
+**Exception:** Rare repo-only hotfixes may still go through a PR from a short-lived branch when possible.
+
+Do **not** push unrelated changes on the same branch; one focused PR per issue is preferred.
