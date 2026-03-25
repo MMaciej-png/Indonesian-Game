@@ -1,0 +1,50 @@
+{
+  "level": {
+    "id": "numbers_L1",
+    "titleKey": "en_id.level.numbers_L1.title",
+    "challengeIds": ["n1_c1", "n1_c2", "n1_c3", "n1_c4", "n1_c5"]
+  },
+  "challenges": [
+    {
+      "id": "n1_c1",
+      "kind": "word",
+      "promptKey": "en_id.challenge.n1_c1.prompt",
+      "expected": "dua",
+      "aliases": ["2"],
+      "tags": ["number"]
+    },
+    {
+      "id": "n1_c2",
+      "kind": "word",
+      "promptKey": "en_id.challenge.n1_c2.prompt",
+      "expected": "lima",
+      "aliases": ["5"],
+      "tags": ["number"]
+    },
+    {
+      "id": "n1_c3",
+      "kind": "word",
+      "promptKey": "en_id.challenge.n1_c3.prompt",
+      "expected": "sepuluh",
+      "aliases": ["10"],
+      "tags": ["number"]
+    },
+    {
+      "id": "n1_c4",
+      "kind": "word",
+      "promptKey": "en_id.challenge.n1_c4.prompt",
+      "expected": "seribu",
+      "aliases": ["1000"],
+      "tags": ["number"]
+    },
+    {
+      "id": "n1_c5",
+      "kind": "sentence",
+      "promptKey": "en_id.challenge.n1_c5.prompt",
+      "expected": "harganya seribu lima ratus ya",
+      "aliases": ["harganya seribu lima ratus"],
+      "allowWordOrderVariant": false,
+      "tags": ["number"]
+    }
+  ]
+}

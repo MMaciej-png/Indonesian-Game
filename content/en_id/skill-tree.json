@@ -1,0 +1,73 @@
+{
+  "rootIds": ["root_hub"],
+  "nodes": [
+    {
+      "id": "root_hub",
+      "titleKey": "en_id.tree.root.title",
+      "descriptionKey": "en_id.tree.root.desc",
+      "parentIds": [],
+      "cost": 0,
+      "branch": "core",
+      "branchStyleKey": "branch.core",
+      "nodeType": "content",
+      "grantsModuleIds": ["greetings"]
+    },
+    {
+      "id": "boost_kosa",
+      "titleKey": "en_id.tree.boost_kosa.title",
+      "descriptionKey": "en_id.tree.boost_kosa.desc",
+      "parentIds": ["root_hub"],
+      "cost": 40,
+      "branch": "economy",
+      "branchStyleKey": "branch.economy",
+      "nodeType": "boost",
+      "scope": { "type": "global" },
+      "effects": { "currencyPerCorrectMult": 0.12 }
+    },
+    {
+      "id": "content_numbers",
+      "titleKey": "en_id.tree.numbers.title",
+      "descriptionKey": "en_id.tree.numbers.desc",
+      "parentIds": ["root_hub"],
+      "cost": 55,
+      "branch": "vocab",
+      "branchStyleKey": "branch.vocab",
+      "nodeType": "content",
+      "grantsModuleIds": ["numbers_casual"]
+    },
+    {
+      "id": "boost_xp_chat",
+      "titleKey": "en_id.tree.boost_xp.title",
+      "descriptionKey": "en_id.tree.boost_xp.desc",
+      "parentIds": ["content_numbers"],
+      "cost": 70,
+      "branch": "economy",
+      "branchStyleKey": "branch.economy",
+      "nodeType": "boost",
+      "scope": { "type": "contentKind", "contentKind": "sentence_patterns" },
+      "effects": { "xpPerCorrectMult": 0.15, "comboMaxCapAdd": 1 }
+    },
+    {
+      "id": "content_daily",
+      "titleKey": "en_id.tree.daily.title",
+      "descriptionKey": "en_id.tree.daily.desc",
+      "parentIds": ["content_numbers"],
+      "cost": 80,
+      "branch": "chat",
+      "branchStyleKey": "branch.chat",
+      "nodeType": "content",
+      "grantsModuleIds": ["daily_chat"]
+    },
+    {
+      "id": "content_particles",
+      "titleKey": "en_id.tree.particles.title",
+      "descriptionKey": "en_id.tree.particles.desc",
+      "parentIds": ["content_daily"],
+      "cost": 95,
+      "branch": "chat",
+      "branchStyleKey": "branch.chat",
+      "nodeType": "content",
+      "grantsModuleIds": ["particles_nih"]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "en_id",
+  "sourceLocale": "en",
+  "targetLocale": "id",
+  "targetRegister": "jakarta_colloquial",
+  "version": "0.1.0",
+  "skillTreePath": "skill-tree.json",
+  "cosmeticsCatalogPath": "cosmetics/catalog.json",
+  "gachaPoolPath": "cosmetics/pool.json",
+  "moduleIds": ["greetings", "numbers_casual", "daily_chat", "particles_nih"],
+  "economy": {
+    "baseCurrencyPerCorrect": 10,
+    "baseXpPerCorrect": 6,
+    "comboBonusPercentPerStep": 4,
+    "maxComboBonusPercent": 24,
+    "currencyNameKey": "en_id.ui.currency_name",
+    "maxStackedCurrencyBonus": 2.5,
+    "maxStackedXpBonus": 2.5
+  },
+  "stars": {
+    "twoStarMinAccuracy": 0.8,
+    "threeStarMinAccuracy": 0.95
+  }
+}

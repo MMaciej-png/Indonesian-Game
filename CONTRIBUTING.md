@@ -37,7 +37,7 @@ Cursor project rules under [`.cursor/rules/`](.cursor/rules/) reinforce this for
 ## Scope
 
 - Prefer **small PRs** and meaningful commit history.
-- Run **tests** and **content validation** (once `npm test` / `validate:content` exist) before requesting review.
+- Run **`npm test`**, **`npm run validate:content`**, **`npm run lint`**, and **`npm run typecheck`** before requesting review.
 - **Curriculum** under `content/` should stay reviewable JSON; follow the project plan for keys and packs.
 
 ## Tooling

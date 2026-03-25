@@ -1,0 +1,11 @@
+{
+  "id": "numbers_casual",
+  "titleKey": "en_id.module.numbers.title",
+  "descriptionKey": "en_id.module.numbers.desc",
+  "contentKind": "vocabulary_pack",
+  "unlockRequirements": {
+    "requireModuleIdsComplete": ["greetings"]
+  },
+  "levelIds": ["numbers_L1"],
+  "sortOrder": 2
+}
