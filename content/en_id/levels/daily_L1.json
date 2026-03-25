@@ -1,0 +1,43 @@
+{
+  "level": {
+    "id": "daily_L1",
+    "titleKey": "en_id.level.daily_L1.title",
+    "sentenceFeatureKey": "en_id.feature.daily_smalltalk",
+    "challengeIds": ["d1_c1", "d1_c2", "d1_c3", "d1_c4"]
+  },
+  "challenges": [
+    {
+      "id": "d1_c1",
+      "kind": "sentence",
+      "promptKey": "en_id.challenge.d1_c1.prompt",
+      "expected": "laper banget nih",
+      "aliases": ["lapar banget nih"],
+      "tags": ["daily"]
+    },
+    {
+      "id": "d1_c2",
+      "kind": "sentence",
+      "promptKey": "en_id.challenge.d1_c2.prompt",
+      "expected": "capek abis jalan jalan",
+      "aliases": ["cape abis jalan jalan", "capek habis jalan jalan"],
+      "allowWordOrderVariant": true,
+      "tags": ["daily"]
+    },
+    {
+      "id": "d1_c3",
+      "kind": "sentence",
+      "promptKey": "en_id.challenge.d1_c3.prompt",
+      "expected": "besok free gak sih",
+      "aliases": ["besok free gak", "besok sibuk gak"],
+      "tags": ["daily"]
+    },
+    {
+      "id": "d1_c4",
+      "kind": "sentence",
+      "promptKey": "en_id.challenge.d1_c4.prompt",
+      "expected": "mau makan di mana nih",
+      "aliases": ["mau makan dimana nih", "makan di mana nih"],
+      "tags": ["daily"]
+    }
+  ]
+}

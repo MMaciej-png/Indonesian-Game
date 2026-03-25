@@ -1,0 +1,18 @@
+{
+  "id": "default",
+  "nameKey": "en_id.gacha.pool_default",
+  "pullCost": 35,
+  "duplicateShardReward": 8,
+  "pity": {
+    "hardPityEvery": 14,
+    "rarePlusRarity": "rare"
+  },
+  "entries": [
+    { "cosmeticId": "hat_cap_biru", "weight": 28 },
+    { "cosmeticId": "clothes_kaos", "weight": 26 },
+    { "cosmeticId": "shoes_sandal", "weight": 18 },
+    { "cosmeticId": "bg_kota", "weight": 10 },
+    { "cosmeticId": "hat_kerpus", "weight": 10 },
+    { "cosmeticId": "clothes_kemeja", "weight": 8 }
+  ]
+}

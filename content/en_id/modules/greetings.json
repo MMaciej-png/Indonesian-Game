@@ -1,0 +1,8 @@
+{
+  "id": "greetings",
+  "titleKey": "en_id.module.greetings.title",
+  "descriptionKey": "en_id.module.greetings.desc",
+  "contentKind": "vocabulary_pack",
+  "levelIds": ["greetings_L1", "greetings_L2"],
+  "sortOrder": 1
+}

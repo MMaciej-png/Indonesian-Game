@@ -1,0 +1,42 @@
+{
+  "level": {
+    "id": "particles_L1",
+    "titleKey": "en_id.level.particles_L1.title",
+    "sentenceFeatureKey": "en_id.feature.particles_nih",
+    "challengeIds": ["p1_c1", "p1_c2", "p1_c3", "p1_c4"]
+  },
+  "challenges": [
+    {
+      "id": "p1_c1",
+      "kind": "sentence",
+      "promptKey": "en_id.challenge.p1_c1.prompt",
+      "expected": "udah makan belum nih",
+      "aliases": ["udah makan blm nih", "sudah makan belum nih"],
+      "tags": ["particle"]
+    },
+    {
+      "id": "p1_c2",
+      "kind": "sentence",
+      "promptKey": "en_id.challenge.p1_c2.prompt",
+      "expected": "jemputnya jam berapa nih",
+      "aliases": ["jemput nya jam berapa nih"],
+      "tags": ["particle"]
+    },
+    {
+      "id": "p1_c3",
+      "kind": "sentence",
+      "promptKey": "en_id.challenge.p1_c3.prompt",
+      "expected": "tadi macet parah nih",
+      "aliases": ["tadi macet banget nih"],
+      "tags": ["particle"]
+    },
+    {
+      "id": "p1_c4",
+      "kind": "sentence",
+      "promptKey": "en_id.challenge.p1_c4.prompt",
+      "expected": "yaudah gas aja nih",
+      "aliases": ["ya udah gas aja nih", "yaudah gas nih"],
+      "tags": ["particle"]
+    }
+  ]
+}

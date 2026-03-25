@@ -1,0 +1,43 @@
+{
+  "level": {
+    "id": "greetings_L1",
+    "titleKey": "en_id.level.greetings_L1.title",
+    "challengeIds": ["g1_c1", "g1_c2", "g1_c3", "g1_c4"]
+  },
+  "challenges": [
+    {
+      "id": "g1_c1",
+      "kind": "word",
+      "promptKey": "en_id.challenge.g1_c1.prompt",
+      "hintKey": "en_id.challenge.g1_c1.hint",
+      "expected": "apa kabar",
+      "aliases": ["apa kabarnya", "gimana kabarnya"],
+      "tags": ["greeting"]
+    },
+    {
+      "id": "g1_c2",
+      "kind": "word",
+      "promptKey": "en_id.challenge.g1_c2.prompt",
+      "hintKey": "en_id.challenge.g1_c2.hint",
+      "expected": "halo",
+      "aliases": ["hai", "helo"],
+      "tags": ["greeting"]
+    },
+    {
+      "id": "g1_c3",
+      "kind": "word",
+      "promptKey": "en_id.challenge.g1_c3.prompt",
+      "expected": "makasih ya",
+      "aliases": ["terima kasih ya", "makasih"],
+      "tags": ["greeting"]
+    },
+    {
+      "id": "g1_c4",
+      "kind": "word",
+      "promptKey": "en_id.challenge.g1_c4.prompt",
+      "expected": "permisi ya",
+      "aliases": ["permisi"],
+      "tags": ["greeting"]
+    }
+  ]
+}

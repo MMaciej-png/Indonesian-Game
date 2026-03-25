@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "hat_cap_biru",
+      "nameKey": "en_id.cosmetic.hat_cap_biru",
+      "slot": "hat",
+      "rarity": "common",
+      "paletteKey": "en_id.cosmetic.hat_cap_biru.palette"
+    },
+    {
+      "id": "clothes_kaos",
+      "nameKey": "en_id.cosmetic.clothes_kaos",
+      "slot": "clothes",
+      "rarity": "common",
+      "paletteKey": "en_id.cosmetic.clothes_kaos.palette"
+    },
+    {
+      "id": "shoes_sandal",
+      "nameKey": "en_id.cosmetic.shoes_sandal",
+      "slot": "shoes",
+      "rarity": "uncommon",
+      "paletteKey": "en_id.cosmetic.shoes_sandal.palette"
+    },
+    {
+      "id": "bg_kota",
+      "nameKey": "en_id.cosmetic.bg_kota",
+      "slot": "background",
+      "rarity": "rare",
+      "paletteKey": "en_id.cosmetic.bg_kota.palette"
+    },
+    {
+      "id": "hat_kerpus",
+      "nameKey": "en_id.cosmetic.hat_kerpus",
+      "slot": "hat",
+      "rarity": "rare",
+      "paletteKey": "en_id.cosmetic.hat_kerpus.palette"
+    },
+    {
+      "id": "clothes_kemeja",
+      "nameKey": "en_id.cosmetic.clothes_kemeja",
+      "slot": "clothes",
+      "rarity": "epic",
+      "paletteKey": "en_id.cosmetic.clothes_kemeja.palette"
+    }
+  ]
+}

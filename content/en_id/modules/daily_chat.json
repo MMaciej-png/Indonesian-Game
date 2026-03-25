@@ -1,0 +1,11 @@
+{
+  "id": "daily_chat",
+  "titleKey": "en_id.module.daily.title",
+  "descriptionKey": "en_id.module.daily.desc",
+  "contentKind": "sentence_patterns",
+  "unlockRequirements": {
+    "requireModuleIdsComplete": ["numbers_casual"]
+  },
+  "levelIds": ["daily_L1"],
+  "sortOrder": 3
+}

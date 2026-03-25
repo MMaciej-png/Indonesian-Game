@@ -1,0 +1,11 @@
+{
+  "id": "particles_nih",
+  "titleKey": "en_id.module.particles.title",
+  "descriptionKey": "en_id.module.particles.desc",
+  "contentKind": "sentence_patterns",
+  "unlockRequirements": {
+    "requireModuleIdsComplete": ["daily_chat"]
+  },
+  "levelIds": ["particles_L1"],
+  "sortOrder": 4
+}

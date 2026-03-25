@@ -1,0 +1,44 @@
+{
+  "level": {
+    "id": "greetings_L2",
+    "titleKey": "en_id.level.greetings_L2.title",
+    "challengeIds": ["g2_c1", "g2_c2", "g2_c3", "g2_c4"]
+  },
+  "challenges": [
+    {
+      "id": "g2_c1",
+      "kind": "sentence",
+      "promptKey": "en_id.challenge.g2_c1.prompt",
+      "hintKey": "en_id.challenge.g2_c1.hint",
+      "expected": "kenalan dong namaku budi",
+      "aliases": ["kenalan ya namaku budi"],
+      "allowWordOrderVariant": true,
+      "tags": ["greeting"]
+    },
+    {
+      "id": "g2_c2",
+      "kind": "word",
+      "promptKey": "en_id.challenge.g2_c2.prompt",
+      "expected": "sama sama",
+      "aliases": ["samasama", "sama-sama"],
+      "tags": ["greeting"]
+    },
+    {
+      "id": "g2_c3",
+      "kind": "word",
+      "promptKey": "en_id.challenge.g2_c3.prompt",
+      "expected": "dah ya",
+      "aliases": ["dadah ya", "bye ya", "dah"],
+      "tags": ["greeting"]
+    },
+    {
+      "id": "g2_c4",
+      "kind": "word",
+      "promptKey": "en_id.challenge.g2_c4.prompt",
+      "registerNoteKey": "en_id.challenge.g2_c4.note",
+      "expected": "lagi ngapain",
+      "aliases": ["lagi apa", "sedang apa"],
+      "tags": ["greeting"]
+    }
+  ]
+}
